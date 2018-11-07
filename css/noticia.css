@@ -13,10 +13,16 @@
 .noticia p{
 	color: #000;
 	text-align: center;
-}
-.noticia .titulo{
 	font-family: verdana;
+}
+.noticia .titulo{	
 	font-size: 25px;
 	color: #000;
 	margin: 0 0 0 0;
+}
+.noticia .texto{
+	font-size: 12px;
+}
+.noticia .codigo{
+	font-size: 10px;
 }

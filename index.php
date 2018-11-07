@@ -68,8 +68,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 		<?php		
 		echo "<img src="."img/".$row['img'].">"."<br>";
 		echo "<p class="."titulo".">".$row['titulo']."</p>";
-		echo "<p>".$row['texto']."</p>";
-		echo "<p>Codigo da Noticia: ".$row['id']."</p>";
+		echo "<p class="."texto".">".$row['texto']."</p>";
+		echo "<p class="."codigo".">Codigo da Noticia: ".$row['id']."</p>";
 		?>
 		</div>
 		<?php
