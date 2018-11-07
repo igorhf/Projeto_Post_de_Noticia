@@ -1,0 +1,15 @@
+banco utilizado mysql
+
+
+1º passo
+
+create database bdphp7;
+
+2º passo
+
+create table noticia(
+id int primary key auto_increment,
+img varchar(150),
+titulo varchar(50),
+texto varchar(500)
+);

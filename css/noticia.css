@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.noticia{
+	width: 300px;	
+	display: inline-block;
+	border: 2px solid;
+	margin: 2px 2px;
+}
+.noticia img{
+	width: 300px;
+	height: 250px;
+}
+.noticia p{
+	color: #000;
+	text-align: center;
+}
+.noticia .titulo{
+	font-family: verdana;
+	font-size: 25px;
+	color: #000;
+	margin: 0 0 0 0;
+}
